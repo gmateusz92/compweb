@@ -1,0 +1,633 @@
+
+<!-- saved from url=(0022)http://127.0.0.1:8000/ -->
+<!DOCTYPE html><input type="hidden" id="__yoroi_connector_api_injected_type" value="prod"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!-- Pliki CSS -->
+		<link rel="stylesheet" href="static/styles/bootstrap4/bootstrap.min.css">
+		<link href="static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+		<link rel="stylesheet" href="static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+		<link rel="stylesheet" href="static/plugins/OwlCarousel2-2.2.1/animate.css">
+		<link rel="stylesheet" href="static/styles/main_styles.css">
+		<link rel="stylesheet" href="static/styles/responsive.css">
+	</head>
+	<body>
+
+		<!-- Treść strony -->
+
+		<!-- Pliki JS -->
+		<script src="static/js/jquery-3.2.1.min.js"></script>
+		<script src="static/styles/bootstrap4/popper.js"></script>
+		<script src="static/styles/bootstrap4/bootstrap.min.js"></script>
+		<script src="static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+		<script src="static/plugins/Isotope/isotope.pkgd.min.js"></script>
+		<script src="static/plugins/scrollTo/jquery.scrollTo.min.js"></script>
+		<script src="static/plugins/easing/easing.js"></script>
+		<script src="static/plugins/parallax-js-master/parallax.min.js"></script>
+		<script src="static/js/custom.js"></script>
+
+
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Multilingual Static Page</title>
+		<link rel="stylesheet" href="static/styles/bootstrap4/bootstrap.min.css">
+		<style>
+			.flag { cursor: pointer; margin: 0 10px; }
+			.hidden { display: none; }
+		</style>
+	</head>
+	<body>
+		<div class="super_container">
+			<!-- Header -->
+			<header class="header">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header_content d-flex flex-row align-items-center justify-content-between">
+								<div class="logo"><a href="#home">xxxxxffff</a></div>
+								<nav class="main_nav">
+									<ul class="d-flex flex-row align-items-center justify-content-start">
+										<li>
+											<a href="#products" data-scroll-to="#products" data-lang="en" class="lang en">Products</a>
+											<a href="#products" data-scroll-to="#products" data-lang="nl" class="lang nl hidden">Producten</a>
+										</li>
+										<li>
+											<a href="#gallery" data-scroll-to="#gallery" data-lang="en" class="lang en">Gallery</a>
+											<a href="#gallery" data-scroll-to="#gallery" data-lang="nl" class="lang nl hidden">Galerij</a>
+										</li>
+										<li>
+											<a href="#contact" data-scroll-to="#contact" data-lang="en" class="lang en">Contact</a>
+											<a href="#contact" data-scroll-to="#contact" data-lang="nl" class="lang nl hidden">Contact</a>
+										</li>
+										<!-- Flag icons inside the same list item -->
+										<li class="flags">
+											<img src="static/images/eng.png" alt="English" class="flag" onclick="setLanguage('en')">
+											<img src="static/images/nl.png" alt="Polski" class="flag" onclick="setLanguage('nl')">
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</header>
+
+			<!-- Home Section -->
+			<div class="home" id="home">
+				<div class="home_slider_container">
+					<div class="owl-carousel owl-theme home_slider">
+						<!-- Slide -->
+						<div class="owl-item">
+							<div class="background_image" style="background-image:url('static/images/ccc.jpg')"></div>
+							<div class="home_slider_content_container">
+								<div class="container">
+									<div class="row">
+										<div class="col">
+											<div class="home_slider_content">
+												<div class="home_title">
+													<h2 class="lang en">From concept to creation</h2>
+													<h2 class="lang nl hidden">Van concept tot creatie</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="intro" id="products">
+				<div class="container">
+				  <div class="row">
+					<div class="col text-center">
+					  <div class="section_title">
+						<h2 class="lang en">Products</h2>
+						<h2 class="lang nl hidden">Producten</h2>
+					  </div>
+					  <br>
+					  <p class="mt-3 lang en">
+						Construction of multi-layer prefabricated walls used in skeletal or modular construction.
+						These walls consist of several layers of different materials that together form a complete
+						structure, ready for assembly:
+					  </p>
+					  <p class="mt-3 lang nl hidden">
+						Bouw van meerlaagse prefab-wanden die worden gebruikt in skelet- of modulaire bouw.
+						Deze wanden bestaan uit verschillende lagen van verschillende materialen die samen een
+						complete structuur vormen, klaar voor montage:
+					  </p>
+					</div>
+				  </div>
+				  <div class="row mt-4">
+					<!-- First row with two descriptions -->
+					<div class="col-lg-6 intro_col mb-4">
+					  <div class="intro_item">
+						<div class="intro_title text-center">
+						  <span class="lang en">Wooden structure</span>
+						  <span class="lang nl hidden">Houten structuur</span>
+						</div>
+						<div class="intro_subtitle">
+						  <p class="mt-3 lang en">
+							The main building material used is specialized construction wood marked as KVH with the C24 standard.
+							The high quality of all materials guarantees durability and safety. The wooden frame is the foundation that gives the wall stability and load-bearing capacity.
+							The frame is spaced at regular intervals, usually every 60 cm, or according to a detailed technical drawing, depending on the client’s needs.
+						  </p>
+						  <p class="mt-3 lang nl hidden">
+							Het belangrijkste bouwmateriaal is speciaal constructiehout met het keurmerk KVH en de standaard C24.
+							De hoge kwaliteit van alle materialen garandeert duurzaamheid en veiligheid. Het houten frame is de basis die de muur stabiliteit en draagkracht geeft.
+							Het frame wordt op regelmatige afstanden geplaatst, meestal om de 60 cm, of volgens een gedetailleerde technische tekening, afhankelijk van de wensen van de klant.
+						  </p>
+						</div>
+					  </div>
+					</div>
+					<!-- Second description: Thermal insulation -->
+					<div class="col-lg-6 intro_col mb-4">
+					  <div class="intro_item">
+						<div class="intro_title text-center">
+						  <span class="lang en">Thermal insulation</span>
+						  <span class="lang nl hidden">Thermische isolatie</span>
+						</div>
+						<div class="intro_subtitle">
+						  <p class="mt-3 lang en">
+							The thermal insulation layer, mainly made of styrofoam, mineral wool, vapor barrier film, or rock wool,
+							ensures the building remains energy-efficient by preventing heat loss in winter and maintaining coolness in summer.
+							It also improves acoustic performance within the structure.
+						  </p>
+						  <p class="mt-3 lang nl hidden">
+							De thermische isolatielaag, voornamelijk gemaakt van piepschuim, minerale wol, dampremmende folie of rotswol,
+							zorgt ervoor dat het gebouw energie-efficiënt blijft door warmteverlies in de winter te voorkomen en in de zomer koel te blijven.
+							Het verbetert ook de akoestische prestaties binnen de structuur.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="row mt-4">
+					<!-- Second row with two descriptions -->
+					<div class="col-lg-6 intro_col mb-4">
+					  <div class="intro_item">
+						<div class="intro_title text-center">
+						  <span class="lang en">Fire-resistant boards</span>
+						  <span class="lang nl hidden">Brandwerende platen</span>
+						</div>
+						<div class="intro_subtitle">
+						  <p class="mt-3 lang en">
+							To increase fire safety, gypsum-fiber boards or other fireproof materials are placed on the insulation layer.
+							These boards slow down the spread of fire, which is especially important in modular constructions, where combustible materials are often used.
+						  </p>
+						  <p class="mt-3 lang nl hidden">
+							Om de brandveiligheid te vergroten, worden gipsvezelplaten of andere brandwerende materialen op de isolatielaag geplaatst.
+							Deze platen vertragen de verspreiding van vuur, wat vooral belangrijk is in modulaire constructies, waar vaak brandbare materialen worden gebruikt.
+						  </p>
+						</div>
+					  </div>
+					</div>
+					<!-- Third description: Gypsum boards -->
+					<div class="col-lg-6 intro_col mb-4">
+					  <div class="intro_item">
+						<div class="intro_title text-center">
+						  <span class="lang en">Gypsum boards</span>
+						  <span class="lang nl hidden">Gipsplaten</span>
+						</div>
+						<div class="intro_subtitle">
+						  <p class="mt-3 lang en">
+							The gypsum boards are the standard interior finish, providing a smooth, durable surface suitable for painting or other finishes.
+							These boards ensure a high-quality aesthetic while also offering some soundproofing properties.
+						  </p>
+						  <p class="mt-3 lang nl hidden">
+							De gipsplaten zijn de standaard interieurafwerking, die een gladde, duurzame oppervlakte bieden die geschikt is voor schilderen of andere afwerkingen.
+							Deze platen zorgen voor een esthetisch hoogwaardige afwerking en bieden ook enige geluidsisolatie.
+						  </p>
+						</div>
+					  </div>
+					</div>
+					<!-- Fourth description: Cement-Fiber Boards -->
+					<div class="col-lg-6 intro_col mb-4">
+					  <div class="intro_item">
+						<div class="intro_title text-center">
+						  <span class="lang en">Cement-Fiber Boards</span>
+						  <span class="lang nl hidden">Cementvezelplaten</span>
+						</div>
+						<div class="intro_subtitle">
+						  <p class="mt-3 lang en">
+							The outer layer of the wall is often made of cement-fiber boards (e.g., Cembrit). These boards are resistant to moisture, frost, and fire, making them ideal for exterior facades.
+							In addition to their protective function, these boards also have an aesthetic appearance and can be painted or plastered.
+						  </p>
+						  <p class="mt-3 lang nl hidden">
+							De buitenste laag van de muur is vaak gemaakt van cementvezelplaten (bijv. Cembrit). Deze platen zijn bestand tegen vocht, kou en brand, waardoor ze ideaal zijn voor buitengevels.
+							Naast hun beschermende functie hebben deze platen ook een esthetisch uiterlijk en kunnen ze worden geschilderd of gepleisterd.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- Gallery Section -->
+			<div class="destinations" id="gallery">
+				<div class="container-custom">
+					<div class="row">
+						<div class="col text-center">
+							<div class="section_title">
+								<h2>Gallery</h2>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<!-- Gallery Items -->
+						<div class="col-lg-3 gallery_item">
+							<img src="./Jd_files/news_1.jpg" alt="Image 1" class="gallery_image" onclick="openModal(this)">
+						</div>
+						<div class="col-lg-3 gallery_item">
+							<img src="./Jd_files/news_2.jpg" alt="Image 2" class="gallery_image" onclick="openModal(this)">
+						</div>
+						<div class="col-lg-3 gallery_item">
+							<img src="./Jd_files/news_3.jpg" alt="Image 3" class="gallery_image" onclick="openModal(this)">
+						</div>
+						<div class="col-lg-3 gallery_item">
+							<img src="./Jd_files/news_1.jpg" alt="Image 1" class="gallery_image" onclick="openModal(this)">
+						</div>
+						<div class="col-lg-3 gallery_item">
+							<img src="./Jd_files/news_2.jpg" alt="Image 2" class="gallery_image" onclick="openModal(this)">
+						</div>
+						<div class="col-lg-3 gallery_item">
+							<img src="./Jd_files/news_3.jpg" alt="Image 3" class="gallery_image" onclick="openModal(this)">
+						</div>
+					</div>
+					<!-- Modal -->
+					<div id="imageModal" class="modal" onclick="closeModal()">
+						<span class="close">×</span>
+						<img class="modal-content" id="img01">
+						<div id="caption"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact Section -->
+			<div class="destinations" id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col text-center">
+							<div class="section_title">
+								<h2>Contact Us</h2>
+							</div>
+							<p class="mt-3">Feel free to reach out to us via any of the channels below.</p>
+						</div>
+					</div>
+					<div class="row mt-4 justify-content-center">
+						<div class="col-lg-8">
+							<iframe width="100%" height="400" src="./Jd_files/embed.html" style="border: 1px solid black; border-radius: 5px;"></iframe>
+							<small><a href="https://www.openstreetmap.org/#map=13/52.76424/23.16879" target="_blank">Big map</a></small>
+						</div>
+					</div>
+					<div class="row mt-4">
+						<div class="col-lg-3 text-center mb-4">
+							<div class="contact_icon"><i class="fa fa-map-marker fa-3x text-primary"></i></div>
+							<h4 class="mt-3">Our Address</h4>
+							<p>123 Main Street,<br>City, Country</p>
+						</div>
+						<div class="col-lg-3 text-center mb-4">
+							<div class="contact_icon"><i class="fa fa-phone fa-3x text-success"></i></div>
+							<h4 class="mt-3">Phone</h4>
+							<p><a href="tel:+123456789">+123 456 789</a></p>
+						</div>
+						<div class="col-lg-3 text-center mb-4">
+							<div class="contact_icon"><i class="fa fa-envelope fa-3x text-danger"></i></div>
+							<h4 class="mt-3">Email</h4>
+							<p><a href="mailto:info@example.com">info@example.com</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ccc -->
+		<!-- <script src="{% static 'js/jquery-3.2.1.min.js' %}">
+		</script>
+		<script src="{% static 'styles/bootstrap4/popper.js' %}"></script>
+		<script src="{% static 'styles/bootstrap4/bootstrap.min.js' %}"></script>
+		<script src="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
+		<script src="{% static 'plugins/Isotope/isotope.pkgd.min.js' %}"></script>
+		<script src="{% static 'plugins/scrollTo/jquery.scrollTo.min.js' %}"></script>
+		<script src="{% static 'plugins/easing/easing.js' %}"></script>
+		<script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+		<script src="{% static 'js/custom.js' %}"></script> -->
+
+
+
+
+<script>
+    document.querySelectorAll('a[data-scroll-to]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault(); // Zapobiegaj domyślnemu działaniu linka
+
+            // Pobierz ID celu (np. #contact)
+            const targetId = this.getAttribute('data-scroll-to');
+            const targetElement = document.querySelector(targetId); // Znajdź sekcję po ID
+
+            if (targetElement) {
+                // Płynne przewijanie do wybranej sekcji
+                targetElement.scrollIntoView({
+                    behavior: 'smooth', // Płynne przewijanie
+                    block: 'start' // Przewiń na początek sekcji
+                });
+            }
+        });
+    });
+</script>
+
+
+
+    <style>
+ /* Kontener galerii */
+.container-custom {
+    width: 80%; /* Szerokość kontenera ustawiona na 80% */
+    max-width: 1200px; /* Maksymalna szerokość kontenera */
+    margin: 0 auto; /* Wyśrodkowanie kontenera */
+}
+
+/* Układ galerii */
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Zapewnia, że zdjęcia będą przechodziły do kolejnych wierszy */
+    justify-content: center; /* Wyśrodkowanie zdjęć w poziomie */
+}
+
+/* Układ dla poszczególnych zdjęć */
+.gallery_item {
+    width: 30%; /* Każde zdjęcie zajmuje 30% szerokości kontenera */
+    margin: 1%; /* Margines na odstępy między zdjęciami */
+    box-sizing: border-box; /* Uwzględnia marginesy przy obliczaniu szerokości */
+    overflow: hidden; /* Zapobiega wychodzeniu zawartości poza kontener */
+}
+
+/* Ustawienia zdjęć */
+.gallery_item img {
+    width: 100%; /* Zdjęcie wypełnia całą szerokość swojej komórki */
+    height: auto; /* Wysokość dopasowana proporcjonalnie do szerokości */
+    object-fit: cover; /* Zapewnia, że obrazek będzie dobrze wyglądał, nie rozciągając się */
+    border-radius: 8px; /* Zaokrąglone rogi zdjęć */
+}
+
+/* Układ dla średnich ekranów (2 zdjęcia w wierszu) */
+@media (max-width: 992px) {
+    .gallery_item {
+        width: 48%; /* 2 zdjęcia w wierszu */
+        margin: 1%; /* Odstęp między zdjęciami */
+    }
+}
+
+/* Układ dla małych ekranów (1 zdjęcie na pełnej szerokości) */
+@media (max-width: 576px) {
+    .gallery_item {
+        width: 100%; /* 1 zdjęcie na pełną szerokość */
+        margin-bottom: 20px; /* Odstęp pomiędzy zdjęciami */
+    }
+}
+    </style>
+
+
+
+<style>
+/* Zwykłe zdjęcia w galerii */
+.gallery_item img {
+    width: 100%; /* Zdjęcie wypełnia całą szerokość swojej komórki */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Stylizacja modalnego okna powiększenia */
+.modal {
+    display: none; /* Ukryty domyślnie */
+    position: fixed; /* Ustawia modal na stałe w oknie */
+    z-index: 9999; /* Na wierzchu */
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9); /* Tło przezroczyste czarne */
+}
+
+/* Stylizacja samego obrazu w modalu */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+}
+
+/* Przyciski zamykające */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#caption {
+    color: #ccc;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+
+
+<script>
+// Funkcja otwierająca modalne okno z powiększonym zdjęciem
+function openModal(img) {
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+
+    modal.style.display = "block"; // Pokazuje modal
+    modalImg.src = img.src; // Ustawia źródło obrazu w modalu
+    captionText.innerHTML = img.alt; // Ustawia podpis obrazu (opcjonalnie)
+}
+
+// Funkcja zamykająca modalne okno po kliknięciu
+function closeModal() {
+    var modal = document.getElementById("imageModal");
+    modal.style.display = "none"; // Ukrywa modal
+}
+
+
+</script>
+
+<style>
+	/* About Section */
+#about {
+    margin-bottom: 0px; /* Zmniejsza odległość poniżej sekcji About */
+    padding-bottom: 0px; /* Zmniejsza wewnętrzny margines dolny w sekcji About */
+}
+
+/* Gallery Section */
+#destinations {
+    margin-top: 0px; /* Zmniejsza odległość powyżej sekcji Gallery */
+    padding-top: 0px; /* Zmniejsza wewnętrzny margines górny w sekcji Gallery */
+}
+
+/* Optional: Adjusting padding for specific rows or columns to fine-tune spacing */
+.row.mt-4 {
+    margin-top: 10px; /* Mniejsze marginesy między wierszami w sekcji About */
+}
+
+/* Adjusting spacing for columns */
+.intro_col {
+    margin-bottom: 20px; /* Zmniejsza odległość między kolumnami w sekcji About */
+}
+
+/* Zmniejsz odległość między sekcjami */
+#destinations {
+    margin-bottom: 20px; /* Zmniejsza odległość poniżej sekcji Gallery */
+    padding-bottom: 10px; /* Zmniejsza padding dolny w sekcji Gallery */
+}
+
+/* Kontakt Section */
+#contact {
+    margin-top: 10px; /* Zmniejsza odległość powyżej sekcji Contact */
+    padding-top: 10px; /* Zmniejsza padding górny w sekcji Contact */
+}
+
+/* Opcjonalnie możesz zmniejszyć marginesy wewnętrzne dla sekcji wewnętrznych (np. wierszy i kolumn) */
+.destinations .row {
+    margin-top: 10px; /* Zmniejsza odległość między wierszami w galerii */
+}
+
+.destinations .col {
+    padding: 0 15px; /* Zmniejsza padding wewnętrzny kolumny */
+}
+
+/* Kontakt - opcjonalne dostosowanie marginesów i paddingów w kontaktowej sekcji */
+#contact .row {
+    margin-top: 10px;
+}
+
+#contact .col {
+    padding: 0 15px;
+}
+
+/* Zwiększenie czcionki w logo */
+.header .logo a {
+    font-size: 60px; /* Zwiększenie rozmiaru czcionki logo */
+    font-weight: bold; /* Opcjonalnie pogrubienie */
+}
+
+/* Zwiększenie czcionki w menu nawigacyjnym */
+.header .main_nav a {
+    font-size: 24px; /* Zwiększenie rozmiaru czcionki w linkach menu */
+    font-weight: 500; /* Opcjonalnie ustawienie grubości czcionki */
+}
+
+/* Opcjonalnie, można dodać odstęp między elementami menu */
+.header .main_nav ul li {
+    margin-right: 70px; /* Większy odstęp między linkami w menu */
+}
+
+
+
+
+
+
+.main_nav ul {
+    display: flex;
+    align-items: center; /* Wyrównaj elementy w poziomie */
+    justify-content: flex-start; /* Zachowaj wszystkie elementy po lewej */
+}
+
+.main_nav li {
+    list-style: none;
+    margin-right: 20px; /* Dodać przestrzeń między linkami */
+}
+
+.flags {
+    display: flex;
+    align-items: center; /* Wyrównaj flagi w poziomie */
+    margin-left: 20px; /* Dodać przestrzeń między linkami a flagami */
+}
+
+.flag {
+    width: 40px; /* Szerokość flagi */
+    height: auto; /* Automatyczna wysokość w zachowaniu proporcji */
+    margin-left: 20px; /* Odstęp między flagami */
+}
+
+
+
+</style></b></body></html>
+
+
+
+
+
+
+    <!-- JavaScript do przełączania języków -->
+    <script>
+        function setLanguage(lang) {
+            // Ukryj wszystkie treści
+            document.querySelectorAll('.lang').forEach(element => {
+                element.classList.add('hidden');
+            });
+
+            // Pokaż tylko treści dla wybranego języka
+            document.querySelectorAll(`.lang.${lang}`).forEach(element => {
+                element.classList.remove('hidden');
+            });
+        }
+
+        // Domyślnie ustaw język angielski
+        setLanguage('en');
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
