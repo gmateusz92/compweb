@@ -622,9 +622,45 @@ function closeModal() {
 </body>
 </html>
 
+<style>
+@media (max-width: 768px) {
+    .main_nav {
+        display: block; /* Zmień na block lub flex w zależności od potrzeby */
+    }
 
+    .main_nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .flags {
+        margin-top: 10px;
+    }
 
+    .home_slider_container {
+        height: auto; /* Przekształć wysokość slidera na mobilnym */
+    }
+}
+
+@media (max-width: 768px) {
+    .lang {
+        display: block !important; /* Wymuś wyświetlanie języków */
+    }
+}
+</style>
+
+<script>
+// Przykład obsługi kliknięcia na flagę:
+function setLanguage(lang) {
+    document.querySelectorAll('.lang').forEach(el => {
+        if (el.classList.contains(lang)) {
+            el.classList.remove('hidden');
+        } else {
+            el.classList.add('hidden');
+        }
+    });
+}
+</script>
 
 
 
